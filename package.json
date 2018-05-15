@@ -1,0 +1,19 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "gallery app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celsom/image-gallery.git"
+  },
+  "author": "celso manhique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celsom/image-gallery/issues"
+  },
+  "homepage": "https://github.com/celsom/image-gallery#readme"
+}
