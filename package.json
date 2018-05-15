@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/celsom/image-gallery/issues"
   },
-  "homepage": "https://github.com/celsom/image-gallery#readme"
+  "homepage": "https://github.com/celsom/image-gallery#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
