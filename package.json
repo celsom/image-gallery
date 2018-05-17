@@ -2,7 +2,7 @@
   "name": "image-gallery",
   "version": "1.0.0",
   "description": "gallery app",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/celsom/image-gallery/issues"
   },
-  "homepage": "https://github.com/celsom/image-gallery#readme",
+  "homepage": "https://github.com/celsom/image-gallery/index.html",
   "dependencies": {
     "bootstrap": "~3.3.7"
   }
