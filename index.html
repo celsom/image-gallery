@@ -10,15 +10,15 @@
     <!-- Bootstrap -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- css -->
-
+    <!--css-->
     <link rel="stylesheet" href="stylesheet/style.css">
 
-    
+   
   </head>
   <body>
+    
 
-     <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,7 +34,7 @@
             <li class="active"><a href="#">Home</a></li>
             
           </ul>
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
     </nav>
 
@@ -43,30 +43,38 @@
 
       <div class="starter-template">
         <h1>Image Gallery</h1>
-
+        <p class="lead">Select a Gallery</p>
       </div>
-      
-    </div>
+
+    </div><!-- /.container -->
 
 
-    <div class="row">
-      <div class="col-sm-2 col-md-6">
-        <div class="thumbnail">
-          <img src="images/bike.jpg" alt="cars">
-          <div class="caption">
-            <strong>Cars</strong>
-            <p>Latest and Fastest SUV  </p>
 
-            <p><a href="#" class="btn btn-default" role="button">View Gallery</a></p>
-
-          </div>
-        </div>
-        
+   <div class="row">
+  <div class="col-sm-2 col-md-6">
+    <div class="thumbnail">
+      <img  src="images/bike.jpg" alt="bikes">
+      <div class="caption">
+        <strong>Bikes</strong>
+        <p>Old classic motocycles</p>
+        <p><a href="#" class="btn btn-default" role="button">View Gallery</a></p>
       </div>
     </div>
+  </div>
+
+  <div class="col-sm-2 col-md-6">
+    <div class="thumbnail">
+      <img  src="images/lamborghini.jpg" alt="cars">
+      <div class="caption">
+        <strong>Cars</strong>
+        <p>Latest and Fastest SUV  </p>
+        <p><a href="#" class="btn btn-default" role="button">View Gallery</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-     
 
 
 
@@ -78,13 +86,15 @@
 
 
 
-
-  
     
 
     
+    
+    
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
